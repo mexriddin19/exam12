@@ -1,0 +1,164 @@
+*  {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.btn button{
+    border: solid 3px white;
+}
+.btn button :hover{
+     border: solid 3px #014e56;
+     color: white;
+}
+main{
+    background-color: #014e56;
+}
+section p{
+    width: 600px;
+    color: white;
+}
+section h1{
+    font-size: 50px;
+    color: white;
+    margin-top: -30px;
+    padding: 40px 0;
+}
+.hero{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 124px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.pas h1{
+    align-items: center;
+    text-align: center;
+    font-size: 40px;
+    
+}
+.pas{
+    background-color: rgb(0, 64, 71);
+    flex-wrap: wrap;
+}
+.rasm div{
+    background-color: rgb(1, 47, 52);
+    width: 350px;
+    height: 300px;
+}
+.rasm{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: space-between;
+    justify-content: center;
+}
+.tep{
+    color: rgb(121, 200, 199);
+}
+.tep1{
+    color: white;
+}
+.ras12{
+    margin-top: -30px;
+    text-align: center;
+}
+.ras img{
+    text-align: center;
+    align-items: center;
+}
+.ras{
+   display: flex;
+   align-items: center;
+   flex-wrap: wrap;
+   justify-content: center;
+   flex-direction: column;
+   position: relative;
+}
+.plus{
+ position: absolute;
+ top: 270px;
+}
+.obm{
+   background-color: rgb(0, 64, 71);
+}
+.fot{
+    display: flex;
+    padding: 10px 0;
+}
+.paim{
+    width: 260px;
+    
+}
+.fot{
+    display: flex;
+    justify-content: space-between;
+    
+   
+    
+}
+.pusto{
+padding: 40px 0;
+}
+footer{
+    background-color: rgb(0, 64, 71) ;
+}
+footer h1{
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+@media(max-width:768px){
+    .hero{
+        justify-content: center;
+       
+        text-align: center;
+        align-items: center;
+    }
+}
+@media(max-width:768px){
+    .hero h1{
+        text-align: center;
+        align-items: center;
+    }
+}
+@media(max-width:576px){
+    .fot{
+        flex-wrap: wrap;
+        gap: 50px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+}
+.btn1{
+    color: rgb(1, 47, 52);
+    border: solid 2px rgb(1, 47, 52);
+    border-radius: 19px;
+    font-size: 20px;
+    width: 150px;
+    height: 40px;
+    margin-top: 20px;
+}
+.teppas{
+    background-color: rgb(246, 126, 126);
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 40px;
+}
+.teppas h1{
+    color: black;
+    font-size: 30px;
+    padding: 20px 0;
+}
+.oxiri{
+    background-color: rgb(0, 37, 41);
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 40px;
+
+}
+.rasssm{
+    display: flex;
+    gap: 10px;
+}
